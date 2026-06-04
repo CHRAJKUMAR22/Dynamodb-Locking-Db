@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "bucket" {
 
-  bucket = "terraform-state-demo-raju2k26"
+  bucket = "raju-demo-app-bucket-2026-001"
 
   tags = {
     Environment = "dev"
