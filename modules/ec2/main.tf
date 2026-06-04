@@ -25,7 +25,7 @@ resource "aws_security_group" "web" {
 
 resource "aws_instance" "web" {
 
-  ami = "ami-0e86e20dae9224db8"
+  ami = "ami-07a00cf47dbbc844c"
 
   instance_type = var.instance_type
 
